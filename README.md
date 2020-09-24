@@ -31,6 +31,8 @@
 2. IterE'WWW2019
 3. RPJE'AAAI2020
 4. [UniKER](https://grlplus.github.io/papers/84.pdf)'ICML-Workshop2020
+## Use pathes
+1. RSNs'ICML2019
 ## Learn rules(there is intersection with KG reasoning)
 1. [RuLES](https://people.mpi-inf.mpg.de/~dstepano/conferences/ISWC2018/paper/ISWC2018paper.pdf)'ISWC2018
 ## Use attributes
