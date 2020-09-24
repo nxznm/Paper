@@ -45,6 +45,8 @@
 ## Entity alignment
 1. BootEA'IJCAI2018
 2. RSNs'ICML2019
+## Cluster
+1. [ExCut: Explainable Embedding-based Clustering over Knowledge Graphs](http://people.mpi-inf.mpg.de/~gadelrab/downloads/ExCut/excut_preprint.pdf)'ISWC2020, which iteratively does clusters by embeddings and learns rules as explanations for the clusters.
 ## Alert
 1. [Knowledge Base Completion: Baselines Strike Back](https://www.aclweb.org/anthology/W17-2609.pdf)'ACL2017
 2. [A Re-evaluation of Knowledge Graph Completion Methods](https://arxiv.org/pdf/1911.03903.pdf)'ACL2020
@@ -52,5 +54,6 @@
 1. [Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short](https://www.aclweb.org/anthology/D17-1184.pdf)'ACL2017, which talks about the influence of sparsity and noise for KGE.
 2. KBGAN'NAACL2018, which uses GAN to do negative sampling.
 3. [Open-World Knowledge Graph Completion](https://arxiv.org/pdf/1711.03438.pdf)'AAAI2018, which does KG completion in open world(new entities and relations emerge).
-4. [TransC](https://www.aclweb.org/anthology/D18-1222.pdf)'EMNLP2018, which distinguish concepts and instances in KGs differently. It uses a sphere to embed a concept. 
-5. [Fact Validation with KG embeddings](http://ceur-ws.org/Vol-2456/paper33.pdf)'2020, which uses KG embeddings as features, then trains by random forest with these features to do fact validation.
+4. [CKRL](https://arxiv.org/abs/1705.03202)'AAAI2018, which assumes that triples in KGs are not always right(may have some noise), and triples should be treated differently(each triple has a distinct confidence). I think this work is similar to [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018, the diffence is that TransE-RW uses rules to calculate confidence, while CKRL models the confidence more complicated.
+5. [TransC](https://www.aclweb.org/anthology/D18-1222.pdf)'EMNLP2018, which distinguish concepts and instances in KGs differently. It uses a sphere to embed a concept. 
+6. [Fact Validation with KG embeddings](http://ceur-ws.org/Vol-2456/paper33.pdf)'2020, which uses KG embeddings as features, then trains by random forest with these features to do fact validation.
