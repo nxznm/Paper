@@ -60,3 +60,5 @@
 4. [CKRL](https://arxiv.org/abs/1705.03202)'AAAI2018, which assumes that triples in KGs are not always right(may have some noise), and triples should be treated differently(each triple has a distinct confidence). I think this work is similar to [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018, the diffence is that TransE-RW uses rules to calculate confidence, while CKRL models the confidence more complicated.
 5. [TransC](https://www.aclweb.org/anthology/D18-1222.pdf)'EMNLP2018, which distinguish concepts and instances in KGs differently. It uses a sphere to embed a concept. 
 6. [Fact Validation with KG embeddings](http://ceur-ws.org/Vol-2456/paper33.pdf)'2020, which uses KG embeddings as features, then trains by random forest with these features to do fact validation.
+## KGE Libraries
+1. [GraphVite](https://arxiv.org/pdf/1903.00757.pdf)'WWW2019, which accelarates node embedding greatly(can process very large scale) by designing a CPU-GPU hybrid system, focused on only one machine with mutiple CPU cores and multiple GPUs. 
