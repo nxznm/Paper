@@ -26,6 +26,7 @@
 2. TransR'AAAI2015
 3. [ConvKB](https://www.aclweb.org/anthology/N18-2053.pdf)'NAACL-HLT2018, it takes transitional characteristics into accounts by using CNN. Different from ConvE which uses CNN to obtain features from head and relation, ConvKB obtains features from head relation and tail simultaneously. Although ConvKB gets competitive results in KGC, some doubts have rasied to question the improvement, e.g. [A Re-evaluation of Knowledge Graph Completion Methods](https://arxiv.org/pdf/1911.03903.pdf)'ACL2020.
 4. QuatE'NIPS2019
+5. [QUATRE](https://arxiv.org/pdf/2009.12517.pdf)'Arxiv2020, i think it combines QuatE and TransR together.
 ## Use rules
 1. [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018
 2. IterE'WWW2019
