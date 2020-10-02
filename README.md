@@ -50,6 +50,7 @@
 ## Entity alignment
 1. BootEA'IJCAI2018
 2. RSNs'ICML2019
+3. [Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/pdf/2009.13603.pdf)'Arxiv2020(may be accepted by AAAI'2020, deserves attention), it focuses on multi-modal embedding learning, and considers auxiliary information including images, relations and attributes(mostly focuses on images). 
 ## Cluster
 1. [ExCut: Explainable Embedding-based Clustering over Knowledge Graphs](http://people.mpi-inf.mpg.de/~gadelrab/downloads/ExCut/excut_preprint.pdf)'ISWC2020, which iteratively does clusters by embeddings and learns rules as explanations for the clusters.
 ## Alert
