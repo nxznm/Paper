@@ -26,9 +26,10 @@
 2. TransR'AAAI2015
 3. [ANALOG](https://arxiv.org/pdf/1705.02426.pdf)'ICML2017, which can degenerate into DisMult, ComplEx and HolE. It focuses on analogical structures in KGs, such as "man is king as woman is to queen", which man and woman, king and queen are analogies. ANALOG designs special constraints on relation matrixs, such that analogical structures can be held in the model.
 4. [R-GCN](https://arxiv.org/pdf/1703.06103.pdf)'ESWC2018
-5. [ConvKB](https://www.aclweb.org/anthology/N18-2053.pdf)'NAACL-HLT2018, it takes transitional characteristics into accounts by using CNN. Different from ConvE which uses CNN to obtain features from head and relation, ConvKB obtains features from head relation and tail simultaneously. Although ConvKB gets competitive results in KGC, some doubts have rasied to question the improvement, e.g. [A Re-evaluation of Knowledge Graph Completion Methods](https://arxiv.org/pdf/1911.03903.pdf)'ACL2020.
+5. [ConvKB](https://www.aclweb.org/anthology/N18-2053.pdf)'NAACL-HLT2018, it takes transitional characteristics into accounts by using CNN(similart to ConvE, both them use CNN, ConvE doesn't hold transitional characteristics, while ConvKB holds). Different from ConvE which uses CNN to obtain features from head and relation, ConvKB obtains features from head relation and tail simultaneously. Although ConvKB gets competitive results in KGC, some doubts have rasied to question the improvement, e.g. [A Re-evaluation of Knowledge Graph Completion Methods](https://arxiv.org/pdf/1911.03903.pdf)'ACL2020.
 6. QuatE'NIPS2019
-7. [QUATRE](https://arxiv.org/pdf/2009.12517.pdf)'Arxiv2020, i think it combines QuatE and TransR together.
+7. [SACN](https://arxiv.org/pdf/1811.04441.pdf)'AAAI2019, SACN = WGCN(weighted GCN) + Conv-TransE. It takes advantage of knowledge graph node connectivity(GCN), node attributes(add attribute nodes) and relation types(WGCN). Conv-TransE keeps the translational property between entities and relations to learn node embeddings for the link prediction(similar to ConvE, both them use 2D convolution, but ConvE doesn't hold the translational property, while Conv-TransE does).
+8. [QUATRE](https://arxiv.org/pdf/2009.12517.pdf)'Arxiv2020, i think it combines QuatE and TransR together.
 ## Use rules
 1. [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018
 2. IterE'WWW2019
