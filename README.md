@@ -1,6 +1,8 @@
 # Classic papers
 1. NCE'AISTATS2010
 2. word2vec
+# Not read but the idea is interesting
+1. [Import2vec Learning Embeddings for Software Libraries](https://arxiv.org/pdf/1904.03990.pdf)'Arxiv2019
 # Misc
 1. [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181.pdf)'EMNLP2014
 2. [PROBABILITY CALIBRATION FOR KNOWLEDGE GRAPH EMBEDDING MODELS](https://openreview.net/pdf?id=S1g8K1BFwS)'ICLR2020
