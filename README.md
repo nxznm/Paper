@@ -8,6 +8,7 @@
 2. [PROBABILITY CALIBRATION FOR KNOWLEDGE GRAPH EMBEDDING MODELS](https://openreview.net/pdf?id=S1g8K1BFwS)'ICLR2020
 3. [Counterfactual Vision-and-Language Navigation via Adversarial Path Sampler](https://arxiv.org/pdf/1911.07308.pdf)'ECCV2020
 4. [Logic Constrained Pointer Networks for Interpretable Textual Similarity](https://www.ijcai.org/Proceedings/2020/0333.pdf)'IJCAI2020
+5. [Graph Structure of Neural Networks](https://arxiv.org/pdf/2007.06559.pdf)'ICML2020, proposed by Jiaxuan You. It represents neural networks as graphs of connections between neurons, and depicts the way how does the graph structure of neural networks affect their predictive performance.
 # Recommendation
 1. KGAT'KDD2019
 # Meta learning
