@@ -57,6 +57,9 @@
 * BootEA'IJCAI2018
 * RSNs'ICML2019
 * [Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/pdf/2009.13603.pdf)'Arxiv2020(may be accepted by AAAI'2020, deserves attention), it focuses on multi-modal embedding learning, and considers auxiliary information including images, relations and attributes(mostly focuses on images). 
+## OWL Ontologies Embedding (concepts/entity types & instances)
+* [Learning Entity Type Embeddings for Knowledge Graph Completion](https://persagen.com/files/misc/Moon2017Learning.pdf)'CIKM2017, proposes a new task to predict the missing entity types.
+* [Embedding OWL Ontologies with OWL2Vec*](http://ceur-ws.org/Vol-2456/paper9.pdf)'2019
 ## Cluster
 * [ExCut: Explainable Embedding-based Clustering over Knowledge Graphs](http://people.mpi-inf.mpg.de/~gadelrab/downloads/ExCut/excut_preprint.pdf)'ISWC2020, which iteratively does clusters by embeddings and learns rules as explanations for the clusters.
 ## Alert
