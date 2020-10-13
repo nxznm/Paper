@@ -60,6 +60,7 @@
 ## OWL Ontologies Embedding (concepts/entity types & instances)
 * [Learning Entity Type Embeddings for Knowledge Graph Completion](https://persagen.com/files/misc/Moon2017Learning.pdf)'CIKM2017, proposes a new task to predict the missing entity types.
 * [Embedding OWL Ontologies with OWL2Vec*](http://ceur-ws.org/Vol-2456/paper9.pdf)'2019
+* [OWL2Vec∗: Embedding of OWL Ontologies](https://arxiv.org/pdf/2009.14654.pdf)'2020, there are two paradigms of embedding, one is semantic embedding (e.g. TransE), the other is to first explicitly explore the neighborhoods of entities and relations in the graph, and then learn the embeddings using a language model (e.g. node2vec, rdf2vec). This paper  belongs to the language model paradigm, but preserves the semantics not only of the graph structure, but also of the lexical information and the logical constructors. Note that the graph of an ontology, which includes hierarchical categorization structure, differs from the multi-relation graph composed of role assertions of a typical KG; furthermore the ontology’s lexical information and logical constructors can not be successfully exploited by the aforementioned KG embedding methods.
 ## Cluster
 * [ExCut: Explainable Embedding-based Clustering over Knowledge Graphs](http://people.mpi-inf.mpg.de/~gadelrab/downloads/ExCut/excut_preprint.pdf)'ISWC2020, which iteratively does clusters by embeddings and learns rules as explanations for the clusters.
 ## Alert
