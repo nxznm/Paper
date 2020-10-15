@@ -25,6 +25,7 @@
 * [Can We Achieve More with Less? Exploring Data Augmentation for Toxic Comment Classification](https://arxiv.org/pdf/2007.00875.pdf)'Arxiv2020
 # Network embedding
 * [DeepWalk](https://arxiv.org/pdf/1403.6652.pdf)'KDD2014, random walk + language model (why: the frequency distribution of vertices in random walks of social network and words in a language both follow a power law).
+* [LINE](https://arxiv.org/pdf/1503.03578.pdf)'WWW2015, the designed objective function which preserves both the first-order and second-order proximities. It proposes an edge-sampling algorithm for optimizing the objective to improve the effectiveness and efficiency. 
 # KG embedding
 ## Traditional
 * TransE'NIPS2013
