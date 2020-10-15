@@ -23,6 +23,8 @@
 * [Learning beyond datasets: Knowledge Graph Augmented Neural Networks for Natural language Processing](https://www.aclweb.org/anthology/N18-1029.pdf)'NAACL2018, which uses KG to do data augmentation for NLP.
 * [Iterative Paraphrastic Augmentation with Discriminative Span Alignment](https://arxiv.org/pdf/2007.00320.pdf)'Arxiv2020
 * [Can We Achieve More with Less? Exploring Data Augmentation for Toxic Comment Classification](https://arxiv.org/pdf/2007.00875.pdf)'Arxiv2020
+# Network embedding
+* [DeepWalk](https://arxiv.org/pdf/1403.6652.pdf)'KDD2014, random walk + language model (why: the frequency distribution of vertices in random walks of social network and words in a language both follow a power law).
 # KG embedding
 ## Traditional
 * TransE'NIPS2013
