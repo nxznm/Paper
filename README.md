@@ -46,6 +46,7 @@
 * RSNs'ICML2019
 ## Learn rules(there is intersection with KG reasoning)
 * [RuLES](https://people.mpi-inf.mpg.de/~dstepano/conferences/ISWC2018/paper/ISWC2018paper.pdf)'ISWC2018
+* [RLvLR](https://www.ijcai.org/Proceedings/2018/0297.pdf)'IJCAI2018, which is comparable with Neural-LP. It uses KG embeddings to accelerate the rule finding (also uses sampling to make the embedding model scalable to large KGs), and uses matrix multiplication to accelerate the rule filtering (more efficient to calculate standard confidence).
 ## Use attributes
 * [KR-EAR](https://www.ijcai.org/Proceedings/16/Papers/407.pdf)'IJCAI2016
 * [TransEA](https://www.aclweb.org/anthology/W18-3017.pdf)'ACL-Workshop2018
