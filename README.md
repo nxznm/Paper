@@ -26,6 +26,7 @@
 # Network embedding
 * [DeepWalk](https://arxiv.org/pdf/1403.6652.pdf)'KDD2014, random walk + language model (why: the frequency distribution of vertices in random walks of social network and words in a language both follow a power law).
 * [LINE](https://arxiv.org/pdf/1503.03578.pdf)'WWW2015, the designed objective function which preserves both the first-order and second-order proximities. It proposes an edge-sampling algorithm for optimizing the objective to improve the effectiveness and efficiency. 
+* [HAN](https://arxiv.org/pdf/1903.07293.pdf)'WWW2019, which focuses on heterogeneous graphs. And it uses a hierarchical attention, including node-level and semantic-level attentions.
 # KG embedding
 ## Traditional
 * TransE'NIPS2013
