@@ -43,6 +43,7 @@
 * IterE'WWW2019
 * RPJE'AAAI2020
 * [UniKER](https://grlplus.github.io/papers/84.pdf)'ICML-Workshop2020
+* [A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs](https://arxiv.org/pdf/2009.10800.pdf)'Arxiv2020, it is similar to my first work. It iteratively learns rules and embeddings. At each iteration, learned embeddings help to prune the rules search space (special filter function using embeddings); and rules help to infer new facts (use importance sampling to sample from inferred facts, and then add into the training set). It is interesting that the experiment result is really good (compared to SOTA). So, why my method fails??? :(
 ## Use pathes
 * RSNs'ICML2019
 ## Learn rules(there is intersection with KG reasoning)
