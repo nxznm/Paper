@@ -75,6 +75,8 @@
 * [Inductively Representing Out-of-Knowledge-Graph Entities by Optimal Estimation Under Translational Assumptions](https://arxiv.org/pdf/2009.12765.pdf)'Arxiv2020, simple and straightforward.
 ##  Dynamic & Temporal setting
 * [RECURRENT EVENT NETWORK: GLOBAL STRUCTURE INFERENCE OVER TEMPORAL KNOWLEDGE GRAPH](https://arxiv.org/pdf/1904.05530.pdf)'EMNLP2020
+## Few-shot or Zero-shot setting
+* [Adaptive Attentional Network for Few-Shot Knowledge Graph Completion](https://arxiv.org/pdf/2010.09638.pdf)'EMNLP2020. It learns dynamic/adaptive entity embeddings (entities exhibit diverse roles within task relations), and dynamic/adaptive reference embeddings (references make different contributions to queries). And it uses transformer encoder for entity pairs (reference / query).
 ## Misc
 * [Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short](https://www.aclweb.org/anthology/D17-1184.pdf)'ACL2017, which talks about the influence of sparsity and noise for KGE.
 * KBGAN'NAACL2018, which uses GAN to do negative sampling.
