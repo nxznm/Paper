@@ -88,3 +88,4 @@
 ## KGE Libraries
 * [OpenKE](https://www.aclweb.org/anthology/D18-2024.pdf)'EMNLP2018, which separates a large-scale KG into several parts and adapt KE models for parallel training (thus capable of embedding large-scale KGs). And it proposes a novel negative sampling strategy (offset-based negative sampling algorithm, i don't understand the algorithm) for further acceleration.
 * [GraphVite](https://arxiv.org/pdf/1903.00757.pdf)'WWW2019, which accelarates node embedding greatly(can process very large scale) by designing a CPU-GPU hybrid system, focused on only one machine with mutiple CPU cores and multiple GPUs. 
+* [LibKGE](https://openreview.net/pdf?id=BkxSmlBFvr)'ICLR2020, it indicates that training strategies (loss function, negative sampling, e.t.c) have a significant impact on model performance and may account for a substantial fraction of the progress (rather than the model itself) made in recent years. Interesting and inspiring!
