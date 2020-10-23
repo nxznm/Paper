@@ -86,4 +86,5 @@
 * [TransC](https://www.aclweb.org/anthology/D18-1222.pdf)'EMNLP2018, which distinguish concepts and instances in KGs differently. It uses a sphere to embed a concept. 
 * [Fact Validation with KG embeddings](http://ceur-ws.org/Vol-2456/paper33.pdf)'2020, which uses KG embeddings as features, then trains by random forest with these features to do fact validation.
 ## KGE Libraries
+* [OpenKE](https://www.aclweb.org/anthology/D18-2024.pdf)'EMNLP2018, which separates a large-scale KG into several parts and adapt KE models for parallel training (thus capable of embedding large-scale KGs). And it proposes a novel negative sampling strategy (offset-based negative sampling algorithm, i don't understand the algorithm) for further acceleration.
 * [GraphVite](https://arxiv.org/pdf/1903.00757.pdf)'WWW2019, which accelarates node embedding greatly(can process very large scale) by designing a CPU-GPU hybrid system, focused on only one machine with mutiple CPU cores and multiple GPUs. 
