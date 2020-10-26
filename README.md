@@ -59,6 +59,7 @@
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019, which uses reinforcement learning to do KG reasoning(given a query (h,r,?), return a path as an explain to (h,r,t)), and combines meta-learning to alleviate few-short relations.
 * [Query2box](https://openreview.net/forum?id=BJgr4kSFDS)'ICLR2020, which uses box embeddings to reasoning over KGs in vector space.
 * [CBR](https://openreview.net/pdf?id=AEY9tRqlU7)'AKBC2020
+* [EM-RBR](https://openreview.net/pdf?id=EKw6nZ4QkJl)'Under_Review_ICLR2021, it utilizes relational background knowledge contained in rules to conduct multi-relation reasoning link prediction rather than superficial vector triangle linkage in embedding models. It solves completion through real rule-based reasoning (rather than uses rules to obtain better embeddings), sounds exciting!
 ## Entity alignment
 * BootEA'IJCAI2018
 * RSNs'ICML2019
