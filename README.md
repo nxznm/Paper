@@ -74,6 +74,7 @@
 ## Alert
 * [Knowledge Base Completion: Baselines Strike Back](https://www.aclweb.org/anthology/W17-2609.pdf)'ACL2017
 * [A Re-evaluation of Knowledge Graph Completion Methods](https://arxiv.org/pdf/1911.03903.pdf)'ACL2020
+* [On the Ambiguity of Rank-Based Evaluation of Entity Alignment or Link Prediction Methods](https://arxiv.org/pdf/2002.06914.pdf)'Arxiv2020, it proposes a new rank function which involves the situation that many scores are the same, and a new metric adjusted mean rank (compared with mean rank).
 ## Inductive setting
 * [Inductively Representing Out-of-Knowledge-Graph Entities by Optimal Estimation Under Translational Assumptions](https://arxiv.org/pdf/2009.12765.pdf)'Arxiv2020, simple and straightforward.
 ##  Dynamic & Temporal setting
