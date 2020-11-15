@@ -1,6 +1,7 @@
 # Classic papers
 * NCE'AISTATS2010
 * word2vec
+* [Attention Is All You Need](https://arxiv.org/pdf/1706.03762v5.pdf)'NIPS2017
 # Not read but the idea is interesting
 * [Import2vec Learning Embeddings for Software Libraries](https://arxiv.org/pdf/1904.03990.pdf)'Arxiv2019
 # Misc
@@ -52,6 +53,9 @@
 ## Use attributes
 * [KR-EAR](https://www.ijcai.org/Proceedings/16/Papers/407.pdf)'IJCAI2016
 * [TransEA](https://www.aclweb.org/anthology/W18-3017.pdf)'ACL-Workshop2018
+## Focus on context
+* [Entity Context and Relational Paths for Knowledge Graph Completion](https://arxiv.org/pdf/2002.06757.pdf)'Arxiv2020
+* [HittER](https://arxiv.org/pdf/2008.12813.pdf)'Arxiv2020, which uses transformer to capture both the entity-relation and entity-context interactions. The interesting thing is that we can make an analogy between HittER with CompGCN (More generally, we can make an analogy between transformer and GCN).
 ## KG reasoning
 * PRA'EMNLP2011
 * Neural-LP'NIPS2017
