@@ -11,6 +11,7 @@
 * [Logic Constrained Pointer Networks for Interpretable Textual Similarity](https://www.ijcai.org/Proceedings/2020/0333.pdf)'IJCAI2020
 * [Graph Structure of Neural Networks](https://arxiv.org/pdf/2007.06559.pdf)'ICML2020, proposed by Jiaxuan You. It represents neural networks as graphs of connections between neurons, and depicts the way how does the graph structure of neural networks affect their predictive performance.
 # Recommendation
+* [Knowledge Graph Convolutional Networks for Recommender Systems](https://arxiv.org/pdf/1904.12575.pdf)'WWW2019
 * KGAT'KDD2019
 # Meta learning
 ## CV
