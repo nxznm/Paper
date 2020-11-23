@@ -55,6 +55,7 @@
 * [KR-EAR](https://www.ijcai.org/Proceedings/16/Papers/407.pdf)'IJCAI2016
 * [TransEA](https://www.aclweb.org/anthology/W18-3017.pdf)'ACL-Workshop2018
 ## Focus on context
+* [KG-BERT](https://arxiv.org/pdf/1909.03193.pdf)'AAAI2020, which treats triples in knowledge graphs as textual sequences and uses bert to model these triples.
 * [Entity Context and Relational Paths for Knowledge Graph Completion](https://arxiv.org/pdf/2002.06757.pdf)'Arxiv2020
 * [CoKE: Contextualized Knowledge Graph Embedding](https://arxiv.org/pdf/1911.02168.pdf)'Arxiv2020, it employs transformer encoder to obtain contextualized representations (two types of graph contexts are studied: edges and paths).
 * [HittER](https://arxiv.org/pdf/2008.12813.pdf)'Arxiv2020, which uses transformer to capture both the entity-relation and entity-context interactions. The interesting thing is that we can make an analogy between HittER with CompGCN (More generally, we can make an analogy between transformer and GCN).
