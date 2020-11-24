@@ -1,3 +1,4 @@
+
 # Classic papers
 * NCE'AISTATS2010
 * word2vec
