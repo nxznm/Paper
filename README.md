@@ -64,6 +64,7 @@
 * [Traversing Knowledge Graphs in Vector Space](https://arxiv.org/pdf/1506.01094.pdf)'EMNLP2015, it traverses in vector space to answer queries, and the paper shows that compositional training (modeling on path queries with length more than three) can improve knowledge base completion (sounds amazing!).
 * Neural-LP'NIPS2017
 * [Multi-Hop](https://arxiv.org/pdf/1808.10568.pdf)'EMNLP2018
+* [Embedding Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/1806.01445.pdf)'NIPS2018, which is followed by Query2box.
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019, which uses reinforcement learning to do KG reasoning(given a query (h,r,?), return a path as an explain to (h,r,t)), and combines meta-learning to alleviate few-short relations.
 * [Embed2Reason](http://papers.nips.cc/paper/8797-quantum-embedding-of-knowledge-for-reasoning.pdf)'NIPS2019, which embeds a symbolic KB into a vector space in a logical structure preserving manner (inspired by the theory of Quantum Logic).
 * [Query2box](https://openreview.net/forum?id=BJgr4kSFDS)'ICLR2020, which uses box embeddings to reasoning over KGs in vector space.
