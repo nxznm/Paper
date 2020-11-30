@@ -63,6 +63,7 @@
 * PRA'EMNLP2011
 * [Traversing Knowledge Graphs in Vector Space](https://arxiv.org/pdf/1506.01094.pdf)'EMNLP2015, it traverses in vector space to answer queries, and the paper shows that compositional training (modeling on path queries with length more than three) can improve knowledge base completion (sounds amazing!).
 * Neural-LP'NIPS2017
+* [Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks](https://www.aclweb.org/anthology/E17-1013.pdf)'EACL2017. Given a query, answer the relation between two entities. The whole task is similar to PRA, the difference is that this paper uses RNN and each path doesn't only have relations but also entities. 
 * [Multi-Hop](https://arxiv.org/pdf/1808.10568.pdf)'EMNLP2018
 * [Embedding Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/1806.01445.pdf)'NIPS2018, which is followed by Query2box.
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019, which uses reinforcement learning to do KG reasoning(given a query (h,r,?), return a path as an explain to (h,r,t)), and combines meta-learning to alleviate few-short relations.
