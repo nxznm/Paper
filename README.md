@@ -61,6 +61,7 @@
 * [HittER](https://arxiv.org/pdf/2008.12813.pdf)'Arxiv2020, which uses transformer to capture both the entity-relation and entity-context interactions. The interesting thing is that we can make an analogy between HittER with CompGCN (More generally, we can make an analogy between transformer and GCN).
 ## KG reasoning
 * PRA'EMNLP2011
+* [Traversing Knowledge Graphs in Vector Space](https://arxiv.org/pdf/1506.01094.pdf)'EMNLP2015, it traverses in vector space to answer queries, and the paper shows that compositional training (modeling on path queries with length more than three) can improve knowledge base completion (sounds amazing!).
 * Neural-LP'NIPS2017
 * [Multi-Hop](https://arxiv.org/pdf/1808.10568.pdf)'EMNLP2018
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019, which uses reinforcement learning to do KG reasoning(given a query (h,r,?), return a path as an explain to (h,r,t)), and combines meta-learning to alleviate few-short relations.
