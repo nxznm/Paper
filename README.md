@@ -70,6 +70,7 @@
 * [Embed2Reason](http://papers.nips.cc/paper/8797-quantum-embedding-of-knowledge-for-reasoning.pdf)'NIPS2019, which embeds a symbolic KB into a vector space in a logical structure preserving manner (inspired by the theory of Quantum Logic).
 * [Query2box](https://openreview.net/forum?id=BJgr4kSFDS)'ICLR2020, which uses box embeddings to reasoning over KGs in vector space.
 * [CBR](https://openreview.net/pdf?id=AEY9tRqlU7)'AKBC2020
+* [BetaE](https://arxiv.org/pdf/2010.11465.pdf)'NIPS2020, which is the first embedding-based method that could handle arbitrary FOL queries on KGs (Beta distributions + probabilistic logical operators). The paper is another work by the author of Query2box.
 * [EM-RBR](https://openreview.net/pdf?id=EKw6nZ4QkJl)'Under_Review_ICLR2021, it utilizes relational background knowledge contained in rules to conduct multi-relation reasoning link prediction rather than superficial vector triangle linkage in embedding models. It solves completion through real rule-based reasoning (rather than uses rules to obtain better embeddings), sounds exciting!
 ## Entity alignment
 * BootEA'IJCAI2018
