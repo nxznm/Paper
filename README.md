@@ -59,6 +59,7 @@
 * [Entity Context and Relational Paths for Knowledge Graph Completion](https://arxiv.org/pdf/2002.06757.pdf)'Arxiv2020
 * [CoKE: Contextualized Knowledge Graph Embedding](https://arxiv.org/pdf/1911.02168.pdf)'Arxiv2020, it employs transformer encoder to obtain contextualized representations (two types of graph contexts are studied: edges and paths).
 * [HittER](https://arxiv.org/pdf/2008.12813.pdf)'Arxiv2020, which uses transformer to capture both the entity-relation and entity-context interactions. The interesting thing is that we can make an analogy between HittER with CompGCN (More generally, we can make an analogy between transformer and GCN).
+* [Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models](https://www.aclweb.org/anthology/2020.coling-main.153.pdf)'COLING2020, which follows KG-BERT, and uses multi-task learning (three tasks: link prediction, relation prediction and relevance ranking task) to combine linguistic information of pre-trained models and triple structural information.
 ## KG reasoning
 * PRA'EMNLP2011
 * [Traversing Knowledge Graphs in Vector Space](https://arxiv.org/pdf/1506.01094.pdf)'EMNLP2015, it traverses in vector space to answer queries, and the paper shows that compositional training (modeling on path queries with length more than three) can improve knowledge base completion (sounds amazing!).
@@ -75,7 +76,7 @@
 ## Entity alignment
 * BootEA'IJCAI2018
 * RSNs'ICML2019
-* [Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/pdf/2009.13603.pdf)'Arxiv2020(may be accepted by AAAI'2020, deserves attention), it focuses on multi-modal embedding learning, and considers auxiliary information including images, relations and attributes(mostly focuses on images). 
+* [Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/pdf/2009.13603.pdf)'Arxiv2020(accepted by AAAI'2020), it focuses on multi-modal embedding learning, and considers auxiliary information including images, relations and attributes(mostly focuses on images). 
 ## OWL Ontologies Embedding (concepts/entity types & instances)
 * [Learning Entity Type Embeddings for Knowledge Graph Completion](https://persagen.com/files/misc/Moon2017Learning.pdf)'CIKM2017, proposes a new task to predict the missing entity types.
 * [Embedding OWL Ontologies with OWL2Vec*](http://ceur-ws.org/Vol-2456/paper9.pdf)'2019
