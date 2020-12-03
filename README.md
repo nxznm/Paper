@@ -2,6 +2,7 @@
 * NCE'AISTATS2010
 * word2vec
 * [Attention Is All You Need](https://arxiv.org/pdf/1706.03762v5.pdf)'NIPS2017
+* [Bert](https://arxiv.org/pdf/1810.04805.pdf), which deserves reading more times!
 # Not read but the idea is interesting
 * [Import2vec Learning Embeddings for Software Libraries](https://arxiv.org/pdf/1904.03990.pdf)'Arxiv2019
 # Misc
