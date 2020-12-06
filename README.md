@@ -48,6 +48,7 @@
 * [UniKER](https://grlplus.github.io/papers/84.pdf)'ICML-Workshop2020
 * [A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs](https://arxiv.org/pdf/2009.10800.pdf)'Arxiv2020, it is similar to my first work. It iteratively learns rules and embeddings. At each iteration, learned embeddings help to prune the rules search space (special filter function using embeddings); and rules help to infer new facts (use importance sampling to sample from inferred facts, and then add into the training set). It is interesting that the experiment result is really good (compared to SOTA). So, why my method fails??? :(
 ## Use pathes
+* [PTransE](https://www.aclweb.org/anthology/D15-1082.pdf)'EMNLP2015. If a path is h -r1-> e1 -r2-> t, then the objective is h + r1 = e1, e1 + r2 = t and h + (r1*r2) = t. As there are many paths and some paths are noise, so the paper proposes a metric to filter and uses the metric to do aggregation of the paths.
 * RSNs'ICML2019
 ## Learn rules(there is intersection with KG reasoning)
 * [RuLES](https://people.mpi-inf.mpg.de/~dstepano/conferences/ISWC2018/paper/ISWC2018paper.pdf)'ISWC2018
