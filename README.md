@@ -50,6 +50,7 @@
 ## Use pathes
 * [PTransE](https://www.aclweb.org/anthology/D15-1082.pdf)'EMNLP2015. If a path is h -r1-> e1 -r2-> t, then the objective is h + r1 = e1, e1 + r2 = t and h + (r1*r2) = t. As there are many paths and some paths are noise, so the paper proposes a metric to filter and uses the metric to do aggregation of the paths.
 * RSNs'ICML2019
+* [PPKE: Knowledge Representation Learning by Path-based Pre-training](https://arxiv.org/pdf/2012.03573.pdf)'Arxiv2020, which follows CoKE and does path-based pre-training (sample lots of paths and use transformers to capture the context of paths), then it will do fine-tune with specific downstream task (e.g. link prediction or relation prediction).
 ## Learn rules(there is intersection with KG reasoning)
 * [RuLES](https://people.mpi-inf.mpg.de/~dstepano/conferences/ISWC2018/paper/ISWC2018paper.pdf)'ISWC2018
 * [RLvLR](https://www.ijcai.org/Proceedings/2018/0297.pdf)'IJCAI2018, which is comparable with Neural-LP. It uses KG embeddings to accelerate the rule finding (also uses sampling to make the embedding model scalable to large KGs), and uses matrix multiplication to accelerate the rule filtering (more efficient to calculate standard confidence).
