@@ -11,8 +11,11 @@
 * [Counterfactual Vision-and-Language Navigation via Adversarial Path Sampler](https://arxiv.org/pdf/1911.07308.pdf)'ECCV2020
 * [Logic Constrained Pointer Networks for Interpretable Textual Similarity](https://www.ijcai.org/Proceedings/2020/0333.pdf)'IJCAI2020
 * [Graph Structure of Neural Networks](https://arxiv.org/pdf/2007.06559.pdf)'ICML2020, proposed by Jiaxuan You. It represents neural networks as graphs of connections between neurons, and depicts the way how does the graph structure of neural networks affect their predictive performance.
-# Mechine learning & Deep learning
-* [Regularizing Recurrent Neural Networks via Sequence Mixup](https://arxiv.org/pdf/2012.07527.pdf), it adopts several regularization techniques from feed-forward networks into RNN. I don't totally understand the paper (maybe re-read in future). 
+# Mechine learning
+* [Regularizing Recurrent Neural Networks via Sequence Mixup](https://arxiv.org/pdf/2012.07527.pdf), it adopts several regularization techniques from feed-forward networks into RNN. I don't totally understand the paper (maybe re-read in future).
+# Deep learning
+## Transformer
+* [Self-Attention with Relative Position Representations](https://www.aclweb.org/anthology/N18-2074.pdf)'NAACL-HLT2018, which changes the absolute position embedding in original transformer to relative position embedding.
 # Recommendation
 * [Knowledge Graph Convolutional Networks for Recommender Systems](https://arxiv.org/pdf/1904.12575.pdf)'WWW2019
 * KGAT'KDD2019
