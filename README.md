@@ -17,6 +17,7 @@
 ## Transformer
 * [Self-Attention with Relative Position Representations](https://www.aclweb.org/anthology/N18-2074.pdf)'NAACL-HLT2018, which changes the absolute position embedding in original transformer to relative position embedding.
 * [Enhancing the Transformer With Explicit Relational Encoding for Math Problem Solving](https://arxiv.org/pdf/1910.06611.pdf)'Arxiv2020, it proposes a change in the attention mechanism of Transformer, i think it deserves re-reading.
+* [RealFormer: Transformer Likes Residual Attention](https://arxiv.org/pdf/2012.11747.pdf)'Arxiv2020, which is preposed by Google, and it focuses on adding a residual connection on attention score (so simple!!!). And it says that Post-LN usually performs better than Pre-LN, but Post-LN needs warm up strategy, while Pre-LN does not need (we can set a large learning rate in Pre-LN), such opinion is proposed by [this paper](https://openreview.net/forum?id=B1x8anVFPr).
 # Recommendation
 * [Knowledge Graph Convolutional Networks for Recommender Systems](https://arxiv.org/pdf/1904.12575.pdf)'WWW2019
 * KGAT'KDD2019
