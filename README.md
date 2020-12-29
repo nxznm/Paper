@@ -16,7 +16,7 @@
 # Deep learning
 ## Transformer
 * [Self-Attention with Relative Position Representations](https://www.aclweb.org/anthology/N18-2074.pdf)'NAACL-HLT2018, which changes the absolute position embedding in original transformer to relative position embedding.
-* [Enhancing the Transformer With Explicit Relational Encoding for Math Problem Solving](https://arxiv.org/pdf/1910.06611.pdf)'Arxiv2020, it proposes a change in the attention mechanism of Transformer, i think it is deserves re-reading.
+* [Enhancing the Transformer With Explicit Relational Encoding for Math Problem Solving](https://arxiv.org/pdf/1910.06611.pdf)'Arxiv2020, it proposes a change in the attention mechanism of Transformer, i think it deserves re-reading.
 # Recommendation
 * [Knowledge Graph Convolutional Networks for Recommender Systems](https://arxiv.org/pdf/1904.12575.pdf)'WWW2019
 * KGAT'KDD2019
@@ -69,6 +69,7 @@
 * [CoKE: Contextualized Knowledge Graph Embedding](https://arxiv.org/pdf/1911.02168.pdf)'Arxiv2020, it employs transformer encoder to obtain contextualized representations (two types of graph contexts are studied: edges and paths).
 * [HittER](https://arxiv.org/pdf/2008.12813.pdf)'Arxiv2020, which uses transformer to capture both the entity-relation and entity-context interactions. The interesting thing is that we can make an analogy between HittER with CompGCN (More generally, we can make an analogy between transformer and GCN).
 * [Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models](https://www.aclweb.org/anthology/2020.coling-main.153.pdf)'COLING2020, which follows KG-BERT, and uses multi-task learning (three tasks: link prediction, relation prediction and relevance ranking task) to combine linguistic information of pre-trained models and triple structural information.
+* [RETRA: Recurrent Transformers for Learning Temporally Contextualized Knowledge Graph Embeddings](https://openreview.net/pdf?id=l7fvWxQ3RG)'ESWC2021-UnderReview, which focuses on temporally contextualized KGE by combining transformer and RNN. 
 ## KG reasoning
 * PRA'EMNLP2011
 * [Traversing Knowledge Graphs in Vector Space](https://arxiv.org/pdf/1506.01094.pdf)'EMNLP2015, it traverses in vector space to answer queries, and the paper shows that compositional training (modeling on path queries with length more than three) can improve knowledge base completion (sounds amazing!).
