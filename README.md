@@ -27,6 +27,8 @@
 * [Meta-Weight-Net](https://arxiv.org/pdf/1902.07379.pdf)'NIPS2019
 ## KG
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019
+# Abduction Learning
+* [Abduction and Argumentation for Explainable Machine Learning: A Position Survey](https://arxiv.org/pdf/2010.12896.pdf)'Arxiv2020
 # Data augmentation
 ## Focus on graph
 * [NodeAug](https://dl.acm.org/doi/pdf/10.1145/3394486.3403063)'KDD2020, which does data augmentation(change attributes of related nodes and change graph structure by adding or removing edges) on each node separately, and uses subgraph mini-batch training(subgraph can be seen as a receptive field); this work focuses on the semi-supervised node classification task.
