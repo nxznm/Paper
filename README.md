@@ -54,6 +54,7 @@
 ## Use rules
 * [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018
 * IterE'WWW2019
+* [Quantum Embedding of Knowledge for Reasoning](https://proceedings.neurips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf)'NeurIPS2019, E2R, which encodes logical structrues (T-box and A-box) into a vector space wich quantum logic. I think idea behind the model is similar to many works (like Query2box) which encode some concept information (T-box) into embedding. However, I think this model (E2R) is more general, it can encode many logic information into embedding (compared with existing work). I like this work.
 * RPJE'AAAI2020
 * [UniKER](https://grlplus.github.io/papers/84.pdf)'ICML-Workshop2020
 * [A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs](https://arxiv.org/pdf/2009.10800.pdf)'Arxiv2020, it is similar to my first work. It iteratively learns rules and embeddings. At each iteration, learned embeddings help to prune the rules search space (special filter function using embeddings); and rules help to infer new facts (use importance sampling to sample from inferred facts, and then add into the training set). It is interesting that the experiment result is really good (compared to SOTA). So, why my method fails??? :(
