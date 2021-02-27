@@ -51,6 +51,7 @@
 * [SACN](https://arxiv.org/pdf/1811.04441.pdf)'AAAI2019, SACN = WGCN(weighted GCN) + Conv-TransE. It takes advantage of knowledge graph node connectivity(GCN), node attributes(add attribute nodes) and relation types(WGCN). Conv-TransE keeps the translational property between entities and relations to learn node embeddings for the link prediction(similar to ConvE, both them use 2D convolution, but ConvE doesn't hold the translational property, while Conv-TransE does).
 * [VR-GCN](https://www.ijcai.org/Proceedings/2019/0574.pdf)'IJCAI2019, which generates both entity embeddings and relation embeddings simultaneously. VR-GCN is capable of learning the vectorized embedding of relations, in comparison with existing GCNs. 
 * [QUATRE](https://arxiv.org/pdf/2009.12517.pdf)'Arxiv2020, i think it combines QuatE and TransR together.
+* [HAKE](https://arxiv.org/pdf/1911.09419.pdf)'AAAI2020, which combines the modulus (encode different categories) and phase (encode unique information in the same category) information. This method only uses triples, while it can caputure semantic hierarchy. I think this work is solid.
 ## Use rules
 * [TransE-RW](https://geog.ucsb.edu/~jano/2018-EKAW18_TransRW.pdf)'EKAW2018
 * IterE'WWW2019
