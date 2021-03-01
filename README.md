@@ -3,6 +3,7 @@
 * word2vec
 * [Attention Is All You Need](https://arxiv.org/pdf/1706.03762v5.pdf)'NIPS2017
 * [Bert](https://arxiv.org/pdf/1810.04805.pdf), which deserves reading more times!
+* [How to represent part-whole hierarchies in a neural network](https://arxiv.org/pdf/2102.12627.pdf)'Arxiv2021, which proposed by *Hinton*. I think it is a appropriately new trial in Neural Symbolic Learning (use neural networks to convert a image into a parse tree). The whole techiniques are composed with transformers, neural fields, contrastive representation learning, distillation and capsules.
 # Not read but the idea is interesting
 * [Import2vec Learning Embeddings for Software Libraries](https://arxiv.org/pdf/1904.03990.pdf)'Arxiv2019
 # Misc
