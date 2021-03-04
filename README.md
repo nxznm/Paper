@@ -30,6 +30,8 @@
 * [MetaKGR](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/emnlp2019_meta.pdf)'EMNLP2019
 # Abduction Learning
 
+* [Bridging Machine Learning and Logical Reasoning by Abductive Learning](https://openreview.net/pdf?id=ryxA8NHeLB)'NeurIPS2019
+
 * [Abductive learning: towards bridging machine learning and logical reasoning](http://scis.scichina.com/en/2019/076101.pdf)'ScienceChina2019
 
 * [Abduction and Argumentation for Explainable Machine Learning: A Position Survey](https://arxiv.org/pdf/2010.12896.pdf)'Arxiv2020
