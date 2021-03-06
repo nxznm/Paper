@@ -139,3 +139,4 @@
 * [DGL-KE](https://arxiv.org/pdf/2004.08532.pdf)'SIGIR2020, distributed training (multi-machines, multi-GPUs).
 ## Survey
 * [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8047276)'TKDE2017, it concludes very comprehensively and deserves re-reading (I just read until section 3.5). 
+* 
