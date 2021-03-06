@@ -96,6 +96,9 @@
 * [BetaE](https://arxiv.org/pdf/2010.11465.pdf)'NIPS2020, which is the first embedding-based method that could handle arbitrary FOL queries on KGs (Beta distributions + probabilistic logical operators). The paper is another work by the author of Query2box.
 * [EM-RBR](https://openreview.net/pdf?id=EKw6nZ4QkJl)'Under_Review_ICLR2021, it utilizes relational background knowledge contained in rules to conduct multi-relation reasoning link prediction rather than superficial vector triangle linkage in embedding models. It solves completion through real rule-based reasoning (rather than uses rules to obtain better embeddings), sounds exciting!
 ## Entity alignment
+
+* [MTransE](https://www.ijcai.org/Proceedings/2017/0209.pdf)'IJCAI2017
+
 * BootEA'IJCAI2018
 * RSNs'ICML2019
 * [Visual Pivoting for (Unsupervised) Entity Alignment](https://arxiv.org/pdf/2009.13603.pdf)'Arxiv2020(accepted by AAAI'2020), it focuses on multi-modal embedding learning, and considers auxiliary information including images, relations and attributes(mostly focuses on images). 
