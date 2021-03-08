@@ -20,6 +20,7 @@
 * [Enhancing the Transformer With Explicit Relational Encoding for Math Problem Solving](https://arxiv.org/pdf/1910.06611.pdf)'Arxiv2020, it proposes a change in the attention mechanism of Transformer, i think it deserves re-reading.
 * [RealFormer: Transformer Likes Residual Attention](https://arxiv.org/pdf/2012.11747.pdf)'Arxiv2020, which is preposed by Google, and it focuses on adding a residual connection on attention score (so simple!!!). And it says that Post-LN usually performs better than Pre-LN, but Post-LN needs warm up strategy, while Pre-LN does not need (we can set a large learning rate in Pre-LN), such opinion is proposed by [this paper](https://openreview.net/forum?id=B1x8anVFPr).
 * [RETHINKING POSITIONAL ENCODING IN LANGUAGE PRE-TRAINING](https://arxiv.org/pdf/2006.15595.pdf)'Arxiv2020, this work is well-written!! It thinks that the direct way of adding position embedding to input embedding is not suitable, as the two information is heterogeneous. It also proposes a novel way to tackle `[CLS]` (I do not read this part very carefully). Anyway, it deserves re-reading!
+* [Transformer in Transformer](https://arxiv.org/pdf/2103.00112.pdf)'Arxiv2021, **which is a new trail of Transformer in CV.** The main idea: patch-level transformer+pixel-level transformer. I think the complexity analysis of the Transformer architecture (e.g., FLOPs) is very professional, **section 2.3 deserves re-reading**.
 # Recommendation
 * [Knowledge Graph Convolutional Networks for Recommender Systems](https://arxiv.org/pdf/1904.12575.pdf)'WWW2019
 * KGAT'KDD2019
@@ -139,4 +140,3 @@
 * [DGL-KE](https://arxiv.org/pdf/2004.08532.pdf)'SIGIR2020, distributed training (multi-machines, multi-GPUs).
 ## Survey
 * [Knowledge Graph Embedding: A Survey of Approaches and Applications](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8047276)'TKDE2017, it concludes very comprehensively and deserves re-reading (I just read until section 3.5). 
-* 
